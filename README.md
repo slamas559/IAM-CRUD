@@ -66,13 +66,13 @@ cd crud_backend
  ### Login
  curl -X POST http://localhost:5000/auth/login \
  -H "Content-Type: application/json" \
- -d '{"email": "admin@example.com", "password": "admin123"}'
+ -d '{"email": "salam@example.com", "password": "master2025"}'
 
  ### Create User
  curl -X POST http://localhost:5000/items \
  -H "Authorization: Bearer <token>" \
  -H "Content-Type: application/json" \
- -d '{"username": "john", "email": "john@example.com", "passwordHash": "pass1234", "roles": ["user"]}'
+ -d '{"username": "hassan", "email": "john@example.com", "passwordHash": "master2025", "roles": ["user"]}'
  
  ### Create appointments
  curl -X POST http://localhost:5000/appointments \
@@ -89,6 +89,12 @@ cd crud_backend
 - POST /items, GET /items, etc.
 - POST /appointments, GET /appointments?userId=...
 
+## LOGIN AS AN ADMIN
+### use this credentials to login as an admin in order to create and delete user
+- {
+-  "email":"salam@example.com",
+-  "password":"master2025"
+-}
 ---
 
 ### Migrations
