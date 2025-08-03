@@ -90,11 +90,11 @@ cd crud_backend
 - POST /appointments, GET /appointments?userId=...
 
 ## LOGIN AS AN ADMIN
-### use this credentials to login as an admin in order to create and delete user
-- {
--  "email":"salam@example.com",
--  "password":"master2025"
--}
+### use this credentials to login as an admin in order to create and delete user and the same password to login as a normal user:
+{
+"email":"salam@example.com",
+"password":"master2025"
+}
 ---
 
 ### Migrations
