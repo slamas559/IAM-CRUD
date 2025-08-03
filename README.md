@@ -91,10 +91,8 @@ cd crud_backend
 
 ## Login as an admin 
 ### Use this credentials to login as an admin in order to create and delete user and the same password to login as a normal user
-{
-"email":"salam@example.com",
-"password":"master2025"
-}
+{"email":"salam@example.com",
+"password":"master2025"}
 ---
 
 ### Migrations
